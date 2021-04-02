@@ -19,10 +19,10 @@
 
 ## Tests/Specs
 
-### Describe: 
-Test: ""
-Code: 
-Expected Output: 
+### Describe: beepReplace
+Test: "It should take a users input and convert it to a number" 
+Code: beepReplace("1")
+Expected Output: 1
 
 
 
