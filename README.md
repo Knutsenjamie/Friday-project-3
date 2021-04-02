@@ -32,7 +32,7 @@ Expected Output: false;
 ### Describe: rangeOfNumbers
 Test: "It should return a range of numbers after taking in user's number"
 Code: rangeOfNumbers
-Expected Output: []
+Expected Output: [1,2,3,4,5]
 
 ### Describe: toBeepBoopWont ();
 Test: "It should convert all numbers that contain 1 to "Beep", all numbers that contain 2 to "Boop", and all numbers that contain 3 to ""Won't you be my neighbor?"

@@ -8,13 +8,18 @@ function convertToNumber(input) {
     return false;
   }
 }
-function rangeOfNumber(start,input) {
+function rangeOfNumbers(start,end) {
   let rangeArray = [];
-  for (let i = start; i <= input; i++) {
+  console.log (rangeArray.push);
+  for (let i = start; i <= end; i++) {
       rangeArray.push(i);
-      return rangeArray;
   }
+  return rangeArray;
 }
+console.log(rangeOfNumbers(0, 13));
+
+
+
 
 
 
