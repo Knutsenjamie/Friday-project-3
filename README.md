@@ -1,7 +1,7 @@
-# _Friday Project 3_
+# _Mr. Robogers Neighborhood_
 
 
-### _Mr. Robogers Neighborhood_
+### _Friday Project 3_
 
 ##### By:
 #####  _**Jamie Knutsen**_ _©2021_
@@ -41,7 +41,7 @@ Expected Output: [0,Beep,2,3,4,5,6,7,8,9,Beep,Beep,12]
 
 
 ## Setup/Installation Requirements
-_you can view this webpage by checking out the url:_
+_You can view this webpage by checking out the url:_
 https://github.com/Knutsenjamie/Friday-project-3.git
 1. Open terminal
 2. Input these commands into terminal's command line:

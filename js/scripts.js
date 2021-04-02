@@ -1,4 +1,4 @@
-// Business Logic (Take this out before submission)
+
 function convertToNumber(input) {
   let parsedInput = parseInt(input);
   console.log(input);
@@ -16,8 +16,6 @@ function rangeOfNumbers(start,end) {
   return rangeArray;
 }
 
+
 console.log(rangeOfNumbers(0,12));
 
-
-
-// UI Logic (Take this out before submission)
