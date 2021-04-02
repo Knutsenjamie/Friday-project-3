@@ -1,7 +1,7 @@
-# _Arrays And Looping Practice_
+# _Title 1_
 
 
-### _Greetings Switched Backwards_
+### _Title_
 
 ##### By:
 #####  _**Jamie Knutsen**_ _©2021_
@@ -15,26 +15,25 @@
 * _JavaScript_
 * _jQuery_
 
-
-## Describe: Greeting 
-Test: "It will take in the users name"
-Code: processUserInput(greeting);
-Expected Output: ""
-
-This application was designed to practice writing functions with arrays and looping. 
+## Description:
 
 ## Tests/Specs
 
-### Description:
+### Describe: 
+Test: ""
+Code: 
+Expected Output: 
+
+
 
 ## Setup/Installation Requirements
 _you can view this webpage by checking out the url:_
-<!-- https://github.com/Knutsenjamie/Friday-Project-2 -->
+https://github.com/Knutsenjamie/Friday-project-3.git
 1. Open terminal
 2. Input these commands into terminal's command line:
 
 * cd desktop
-<!-- * git clone https://github.com/Knutsenjamie/Friday-Project-2 -->
+https://github.com/Knutsenjamie/Friday-project-3.git
 * code .
 
 ## Licensing
