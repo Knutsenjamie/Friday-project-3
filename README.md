@@ -36,7 +36,7 @@ Code: rangeOfNumbers(0,13);
 Expected Output: [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
 
 Test: "It should take range of numbers, then replace 1 (all digits) with "Beep"."
-Code:
+Code: rangeOfNumbers (0,12)
 Expected Output: [0,Beep,2,3,4,5,6,7,8,9,Beep,Beep,12]
 
 

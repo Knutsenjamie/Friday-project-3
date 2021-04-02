@@ -14,7 +14,7 @@ function rangeOfNumbers(start,end) {
     rangeArray.push(i);
   }
   if (rangeArray.includes(1)); {
-    rangeArray.splice(1,1,["Beep"]);
+    rangeArray.splice(1,1,"Beep");
   }
   return rangeArray;
 }
