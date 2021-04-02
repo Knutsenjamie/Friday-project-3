@@ -1,7 +1,7 @@
-# _Title 1_
+# _Friday Project 3_
 
 
-### _Title_
+### _Mr. Robogers Neighborhood_
 
 ##### By:
 #####  _**Jamie Knutsen**_ _©2021_
@@ -15,7 +15,8 @@
 * _JavaScript_
 * _jQuery_
 
-## Description:
+## Description: 
+This application was designed to showcase uses of arrays and looping by taking a users input, making a range of numbers with said input ending that range, and replacing 1,2,3 with "Beep","Boop", and "Won't you be my neighbor?" respectively- with exceptions kept in mind.
 
 ## Tests/Specs
 
