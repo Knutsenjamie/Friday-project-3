@@ -31,13 +31,12 @@ Expected Output: false;
 
 ### Describe: rangeOfNumbers
 Test: "It should return a range of numbers after taking in user's number"
-Code: rangeOfNumbers
-Expected Output: [1,2,3,4,5]
+Code: rangeOfNumbers(0,13);
+Expected Output: [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
 
-### Describe: toBeepBoopWont ();
-Test: "It should convert all numbers that contain 1 to "Beep", all numbers that contain 2 to "Boop", and all numbers that contain 3 to ""Won't you be my neighbor?"
-Code: toBeepBoopWont();
-Expected Output: ""
+Test: "It should return "Beep" if range includes any numbers including 1"
+Code:
+Expected Output: 
 
 
 ## Setup/Installation Requirements
