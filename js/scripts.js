@@ -10,17 +10,13 @@ function convertToNumber(input) {
 }
 function rangeOfNumbers(start,end) {
   let rangeArray = [];
-  console.log (rangeArray.push);
   for (let i = start; i <= end; i++) {
     rangeArray.push(i);
-  if (i === 1);
-
   }
   return rangeArray;
 }
 
-
-console.log(rangeOfNumbers(0,20));
+console.log(rangeOfNumbers(0,12));
 
 
 
