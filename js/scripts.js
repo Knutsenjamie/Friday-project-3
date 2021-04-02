@@ -8,8 +8,22 @@ function convertToNumber(input) {
     return false;
   }
 }
-console.log(convertToNumber);
-convertToNumber("Hi");
+
+function rangeOfNumbers (number) {
+  if (convertToNumber(number)) {
+    for (let i = 0; i < parsedInput; i++) {
+      
+    }
+  }
+}
+
+convertToNumber("15");
+
+
+
+// function toBeepBoopWont(number)
+// const numberValues = []
+// convertToNumber();
 
 
 

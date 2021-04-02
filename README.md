@@ -19,7 +19,7 @@
 
 ## Tests/Specs
 
-### Describe: convertToNumber
+### Describe: convertToNumber();
 Test: "It should take a users input and convert it to a number" 
 Code: convertToNumber("1")
 Expected Output: 1
@@ -29,6 +29,15 @@ Code: convertToNumber("");
 convertToNumber("Hi");
 Expected Output: false;
 
+### Describe: rangeOfNumbers
+Test: "It should return a range of numbers after taking in user's number"
+Code: rangeOfNumbers
+Expected Output:
+
+### Describe: toBeepBoopWont ();
+Test: "It should convert all numbers that contain 1 to "Beep", all numbers that contain 2 to "Boop", and all numbers that contain 3 to ""Won't you be my neighbor?"
+Code: toBeepBoopWont();
+Expected Output: ""
 
 
 ## Setup/Installation Requirements
