@@ -19,10 +19,15 @@
 
 ## Tests/Specs
 
-### Describe: beepReplace
+### Describe: convertToNumber
 Test: "It should take a users input and convert it to a number" 
-Code: beepReplace("1")
+Code: convertToNumber("1")
 Expected Output: 1
+
+Test: "It should only take a users input if it is a number"
+Code: convertToNumber("");
+convertToNumber("Hi");
+Expected Output: false;
 
 
 
