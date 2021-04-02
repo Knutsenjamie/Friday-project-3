@@ -8,16 +8,18 @@ function convertToNumber(input) {
     return false;
   }
 }
-
-function rangeOfNumbers (number) {
-  if (convertToNumber(number)) {
-    for (let i = 0; i < parsedInput; i++) {
-      
-    }
+function rangeOfNumber(start,input) {
+  let rangeArray = [];
+  for (let i = start; i <= input; i++) {
+      rangeArray.push(i);
+      return rangeArray;
   }
 }
 
-convertToNumber("15");
+
+
+
+
 
 
 
