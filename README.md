@@ -37,11 +37,15 @@ Expected Output: [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
 
 Test: "It should take range of numbers, then replace 1 (all digits) with "Beep"."
 Code: rangeOfNumbers (0,12)
-Expected Output: [0,Beep,2,3,4,5,6,7,8,9,Beep,Beep,Beep]
+Expected Output: [0,"Beep",2,3,4,5,6,7,8,9,"Beep","Beep","Beep"]
 
 Test: "It should take that same range of numbers, then replace 2 (all digits) with "Boop" - supersceding the rules for "Beep" when necessasry i.e. (12)"
 Code: rangeOfNumbers (0,12)
-Expected Output: [0,Beep,Boop,3,4,5,6,7,8,9,Beep,Beep,Boop]
+Expected Output: [0,"Beep","Boop",3,4,5,6,7,8,9,"Beep","Beep","Boop"]
+
+Test: "It should take that same range of numbers, then replace 3 (all digits) with "Won't you be my neighbor?" - supersceding the rules for "Beep" and "Boop" when necessasry i.e. (13)"
+Code: rangeOfNumbers (0,13)
+Expected Output: [0,"Beep","Boop","Won't you be my neighbor?",4,5,6,7,8,9,"Beep","Beep","Boop", "Won't you be my neighbor?"]
 
 
 ## Setup/Installation Requirements

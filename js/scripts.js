@@ -8,14 +8,25 @@ function convertToNumber(input) {
     return false;
   }
 }
-function rangeOfNumbers(start,end) {
+function rangeOfNumbers(start,numberInput) {
   let rangeArray = [];
-  for (let i = start; i <= end; i++) {
+  for (let i = start; i <= numberInput; i++) {
     rangeArray.push(i + "");
   }
-  return rangeArray.map(x => x.includes("2") ? "Boop" : x.includes("1") ? "Beep" : x);
+  return rangeArray.map(x => x.includes("3") ? "Won't you be my neighbor?" : x.includes("2") ? "Boop" : x.includes("1") ? "Beep": x);
 }
+// console.log(rangeOfNumbers(0,13));
+
+$(document).ready(function () {
+  const numberInput = $("#numberInput").val();
+  $("#formRobo").submit(function (event) {
+    $("#result").html(rangeOfNumbers(0-numberInput))
+    event.preventDefault();
+  });
+})
 
 
-console.log(rangeOfNumbers(0,12));
+
+
+
 
