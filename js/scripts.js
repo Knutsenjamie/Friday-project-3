@@ -11,13 +11,16 @@ function convertToNumber(input) {
 function rangeOfNumbers(start,end) {
   let rangeArray = [];
   for (let i = start; i <= end; i++) {
-    rangeArray.push(i);
+    rangeArray.push(i + " ");
   }
-  if (rangeArray.includes(1)); {
-    rangeArray.splice(1,1,"Beep");
+    return rangeArray.map(x => x.includes("1") ? "Beep" : x);
   }
-  return rangeArray;
-}
+//   if (rangeArray.includes("1")); {
+//     rangeArray.forEach (function (number) {
+//       rangeArray.splice(1,'1',"Beep");
+//     }); return rangeArray;
+//   };
+// }
 
 
 console.log(rangeOfNumbers(0,12));
