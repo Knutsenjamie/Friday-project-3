@@ -39,6 +39,10 @@ Test: "It should take range of numbers, then replace 1 (all digits) with "Beep".
 Code: rangeOfNumbers (0,12)
 Expected Output: [0,Beep,2,3,4,5,6,7,8,9,Beep,Beep,Beep]
 
+Test: "It should take that same range of numbers, then replace 2 (all digits) with "Boop" - supersceding the rules for "Beep" when necessasry i.e. (12)"
+Code: rangeOfNumbers (0,12)
+Expected Output: [0,Beep,Boop,3,4,5,6,7,8,9,Beep,Beep,Boop]
+
 
 ## Setup/Installation Requirements
 _You can view this webpage by checking out the url:_
