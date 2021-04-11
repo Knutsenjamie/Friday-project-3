@@ -15,16 +15,14 @@ function rangeOfNumbers(start,numberInput) {
   }
   return rangeArray.map(x => x.includes("3") ? "Won't you be my neighbor?" : x.includes("2") ? "Boop" : x.includes("1") ? "Beep": x);
 }
-// console.log(rangeOfNumbers(0,13));
 
-$(document).ready(function () {
-  const numberInput = $("#numberInput").val();
-  $("#formRobo").submit(function (event) {
-    $("#result").html(rangeOfNumbers(0-numberInput))
+$(document).ready(function() {  
+  $("#formRobo").submit(function(event) {
     event.preventDefault();
+    const numberInput = $("#numberInput").val();
+    $("#result").text(rangeOfNumbers(0, numberInput));
   });
 })
-
 
 
 
