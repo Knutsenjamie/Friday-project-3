@@ -13,7 +13,7 @@ function rangeOfNumbers(start,numberInput) {
   for (let i = start; i <= numberInput; i++) {
     rangeArray.push(i + "");
   }
-  return rangeArray.map(x => x.includes("3") ? "Won't you be my neighbor?" : x.includes("2") ? "Boop" : x.includes("1") ? "Beep": x);
+  return rangeArray.map(x => x.includes("3") ? " Won't you be my neighbor?" : x.includes("2") ? " Boop" : x.includes("1") ? " Beep": x);
 }
 
 $(document).ready(function() {  

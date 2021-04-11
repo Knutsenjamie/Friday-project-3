@@ -1,0 +1,21 @@
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Zilla Slab', serif;
+}
+
+label {
+  font-family: 'Zilla Slab', serif;
+}
+
+button {
+  font-family: 'Zilla Slab', serif;
+}
+
+#result {
+  font-family: 'Roboto Mono', monospace;
+}
+
