@@ -55,7 +55,7 @@ https://github.com/Knutsenjamie/Friday-project-3.git
 2. Input these commands into terminal's command line:
 
 * cd desktop
-https://github.com/Knutsenjamie/Friday-project-3.git
+* Clone https://github.com/Knutsenjamie/Friday-project-3.git
 * code .
 
 ## Licensing
